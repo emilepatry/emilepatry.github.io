@@ -1,0 +1,122 @@
+/* ------------------Bootstrap classes------------------ */
+#navigation {
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.nav-link {
+  font-family: ff-real-text-pro-light, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.04rem;
+  color: #262626
+}
+
+.card-title {
+  text-align: center;
+  font-family: ff-real-headline-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  color: #999999;
+}
+
+.card-group {
+  margin-top: 64px;
+}
+
+/* ------------------My classes------------------ */
+
+a.card {
+  color: inherit;
+}
+
+a.card:hover {
+  color: #999999;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.mybg {
+  background-color: #FAFAFA;
+}
+
+.mynav {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.myname {
+  font-family: ff-real-headline-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px !important;
+  letter-spacing: 0.05rem;
+  color: #231F20;
+}
+
+.nav-link:hover {
+  color: #999999;
+  transition: 0.2s;
+}
+
+.mycatch {
+  font-family: ff-real-headline-pro-2, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  color: #262626;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.mycatch2 {
+  margin-top: 80px;
+  font-family: ff-real-headline-pro-2, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  color: #262626;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.mytitle {
+  font-family: ff-real-headline-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.mydesc {
+  text-align: center;
+  font-family: open-sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #999999;
+}
+
+.linkedin:hover {
+  color: #0077B5 !important;
+  transition: 0.2s;
+}
+
+.medium:hover {
+  color: #3cb371 !important;
+  transition: 0.2s;
+}
+
+.dribbble:hover {
+  color: #ea4c89 !important;
+  transition: 0.2s;
+}
