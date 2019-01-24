@@ -1,4 +1,4 @@
-# patry.github.io
+# emilepatry.github.io
 
 Hi all! This is my second time using HTML, CSS (and a bootstrap framework) to
 create my very own portfolio website.
