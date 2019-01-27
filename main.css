@@ -1,14 +1,17 @@
 /* ------------------Bootstrap classes------------------ */
 #navigation {
-  padding-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
 }
 
+.navbar {
+
+}
 .nav-link {
   font-family: ff-real-text-pro-light, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.125rem;
   letter-spacing: 0.04rem;
   color: #262626
 }
@@ -18,18 +21,26 @@
   font-family: ff-real-headline-pro, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .footer {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   color: #999999;
 }
 
 .card-group {
-  margin-top: 64px;
+  margin-top: 4rem;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.badge {
+  margin-right: 0.6rem;
+  color: #231F20 !important;
+  background-color: #FAFAFA !important;
+  f
 }
 
 /* ------------------My classes------------------ */
@@ -48,18 +59,18 @@ a.card:hover {
   background-color: #FAFAFA;
 }
 
-.mynav {
-  width: 100%;
-  background-color: #FFFFFF;
-}
-
 .myname {
   font-family: ff-real-headline-pro, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px !important;
+  font-size: 1.75rem !important;
   letter-spacing: 0.05rem;
   color: #231F20;
+}
+
+.myimg:hover {
+  opacity: 0.9;
+  transition: 0.2s;
 }
 
 .nav-link:hover {
@@ -71,11 +82,11 @@ a.card:hover {
   font-family: ff-real-headline-pro-2, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 32px;
+  font-size: 2rem;
   letter-spacing: 0.05rem;
   color: #262626;
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 5rem;
 }
 
 .mycatch2 {
@@ -83,18 +94,22 @@ a.card:hover {
   font-family: ff-real-headline-pro-2, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 32px;
+  font-size: 2rem;
   letter-spacing: 0.05rem;
   color: #262626;
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 4rem;
 }
 
 .mytitle {
   font-family: ff-real-headline-pro, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 2rem;
+}
+
+.myheader {
+  font-size: 3rem !important;
 }
 
 .mydesc {
@@ -102,8 +117,12 @@ a.card:hover {
   font-family: open-sans, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #999999;
+}
+
+.mysmall {
+  font-size: 0.9375rem;
 }
 
 .linkedin:hover {
@@ -119,4 +138,43 @@ a.card:hover {
 .dribbble:hover {
   color: #ea4c89 !important;
   transition: 0.2s;
+}
+
+/* ------------------Fade-In Animation------------------ */
+
+#fadein {
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+ -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+   -o-animation: fadein 1s; /* Opera < 12.1 */
+      animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

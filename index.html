@@ -28,55 +28,73 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
-<body class="container">
+<body class="container-fluid">
 
-<div class="container-fluid mynav">
-  <div id="navigation">
+  <div id="navigation" class="container">
     <nav class="navbar navbar-light">
-      <a class="navbar-brand myname" href="index.html">&Eacute;mile Patry</a>
+      <a class="navbar-brand myname" href="/">Emile Patry</a>
       <ul class="nav justify-content-end">
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="work/index.html">Work</a></li>
-        <li class="nav-item"><a class="nav-link" href="resume.pdf">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="about/">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
         <li class="nav-item"><a class="nav-link linkedin" href="mailto:emile@patry.co">Contact</a></li>
       </ul>
     </nav>
   </div>
-</div>
-
+<div id="fadein">
   <div class="d-flex justify-content-center">
     <h1 class="mycatch">Curating user experiences through <br> research, design, & testing.<h1>
   </div>
 
-  <div class="content"> <!-- height="616px" -->
-    <a href="allure.html" class="nav-link"><div class="card mb-3">
-      <img src="img/allure.jpg" class="card-img-top" alt="Allure Systems">
-      <div class="card-body greyout">
-        <div class="list-inline">
-          <div class="card-title mytitle col-sm">Allure Systems</div>
-          <div class="card-text col-md mydesc">SaaS and Machine Learning, applied to the fashion industry.</div>
+<!-- ALLURE SYSTEMS - COMING UP
+  <div class="content">
+    <a href="#" class="nav-link">
+      <div class="card mb-3">
+        <img src="img/allure.jpg" class="card-img-top" alt="Allure Systems">
+        <div class="card-body greyout">
+          <div class="list-inline">
+            <div class="card-title mytitle col-sm">Allure Systems</div>
+            <div class="card-text col-md mydesc">Machine Learning and SaaS applied to haute-couture.</div>
+          </div>
         </div>
       </div>
-    </div></a>
+    </a>
+  </div>
+-->
+
+  <div class="myimg">
+    <a href="/work/hiride" class="nav-link container">
+      <div class="card mb-3">
+        <img src="img/hiride.jpg" class="card-img-top" alt="Allure Systems">
+        <div class="card-body greyout">
+          <div class="list-inline">
+            <div class="card-title mytitle col-sm">HiRide</div>
+            <div class="card-text col-md mydesc">Designing a new generation of carpooling. Featuring Dragons Den.</div>
+          </div>
+        </div>
+      </div>
+    </a>
   </div>
 
   <div class="container card-group">
-  <a href="work/tuelite" class="card">
-    <img src="img/tuelite.jpg" class="card-img-top" alt="TU Elite Image">
+  <a href="cnh.html" class="card myimg">
+    <img src="img/cnhtours.jpg" class="card-img-top" alt="TU Elite Image">
     <div class="card-body">
-      <h5 class="card-title">T.U Elite</h5>
+      <h5 class="card-title">CNH Tours</h5>
+      <div class="card-text mydesc mysmall">Luxury small-scale travel, made easy.</div>
     </div>
   </a>
-  <a href="work/tuelite" class="card">
-    <img src="img/hiride.jpg" class="card-img-top" alt="HiRide Image">
+  <a href="waterloop.html" class="card myimg">
+    <img src="img/waterloop.jpg" class="card-img-top" alt="HiRide Image">
     <div class="card-body">
-      <h5 class="card-title">HiRide</h5>
+      <h5 class="card-title">Canada's Hyperloop</h5>
+      <div class="card-text mydesc mysmall">Leading my country to victory.</div>
     </div>
   </a>
-  <a href="work/tuelite" class="card">
+  <a href="twin.html" class="card myimg">
     <img src="img/travelly.jpg" class="card-img-top" alt="Travelly Image">
     <div class="card-body">
-      <h5 class="card-title">Travel.ly</h5>
+      <h5 class="card-title">Pair</h5>
+      <div class="card-text mydesc mysmall">Travelling is about sharing experiences.</div>
     </div>
   </a>
 </div>
@@ -86,14 +104,14 @@
     <p class="mydesc">I’m always open to crafting new ideas into experiences.</p>
     <ul class="nav justify-content-center">
       <li class="nav-item"><a class="nav-link" href="mailto:erpatryb@uwaterloo.ca">Email</a></li>
-      <li class="nav-item"><a class="nav-link dribbble" href="https://dribbble.com/patry">Dribbble</a></li>
-      <li class="nav-item"><a class="nav-link medium" href="https://medium.com/@emilepatry">Medium</a></li>
-      <li class="nav-item"><a class="nav-link linkedin" href="https://www.linkedin.com/in/emilepatry/">LinkedIn</a></li>
+      <li class="nav-item"><a class="nav-link dribbble" target="_blank" href="https://dribbble.com/patry">Dribbble</a></li>
+      <li class="nav-item"><a class="nav-link medium" target="_blank" href="https://medium.com/@emilepatry">Medium</a></li>
+      <li class="nav-item"><a class="nav-link linkedin" target="_blank" href="https://www.linkedin.com/in/emilepatry/">LinkedIn</a></li>
     </ul>
   </div>
-
+</div>
   <div class="footer">
-    <p class="small">Made somewhere on Planet Earth • Emile Patry © 2019 • All rights reserved</p>
+    <p class="small">Made somewhere on Planet Earth • Emile Patry &copy; 2019 • All rights reserved</p>
   </div>
 
 </body>
