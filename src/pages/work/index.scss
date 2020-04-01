@@ -1,0 +1,41 @@
+.work {
+  width: 60vw;
+  @media only screen and (max-width: 768px){
+    width: 100vw;  
+  }
+  display: flex;
+  flex-direction: column;
+  .jobs {
+    .job {
+      margin-bottom: 1.5rem;
+      .primary {
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        margin-bottom: 1.5rem;
+      }
+      .secondary {
+        margin-bottom: 1.5rem;
+        color: #42444A;
+      }
+      .points {
+        width: 80%;
+        .point {
+          display: block;
+          margin-bottom: 0.3rem;
+        }
+        h1 {
+          
+        }
+        h2 {
+          font-size: 1.25rem;
+          font-weight: 600;
+        }
+        h3 {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
