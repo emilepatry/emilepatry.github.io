@@ -1,0 +1,24 @@
+.writing {
+  display: flex;
+  flex-direction: column;
+  .post {
+    margin-bottom: 1rem;
+    .primary {
+      font-weight: 500;
+    }
+    .date {
+      margin-bottom: 0.1rem;
+    }
+    .secondary {
+      color: #888;
+    }
+    &:after {
+      content: "";
+      width: 0%;
+    }
+    &:hover:after {
+      content: "" !important;
+      width: 0% !important;
+    }
+  }
+}
