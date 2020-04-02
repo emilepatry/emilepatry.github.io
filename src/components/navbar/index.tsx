@@ -48,7 +48,7 @@ export default function Navbar() {
             return <p className="nohighlight" onClick={() => {
                // @ts-ignore
               document.getElementById(job.company_name).scrollIntoView(
-                {behavior: "smooth", block: "center", inline: "center"}
+                {behavior: "smooth", inline: "start"}
               );
             }} key={i}>{job.company_name}</p>
           })}

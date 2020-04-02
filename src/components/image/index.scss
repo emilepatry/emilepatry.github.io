@@ -44,26 +44,27 @@
     }
   }
   &.left {
-    margin: 1.5rem auto;
-    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 100%;
+    justify-content: space-between;
+    margin: 1.5rem 0;
     @media only screen and (max-width: 768px){
       flex-direction: column;
       align-items: center;
     }
     figure {
       img {
-        width: 35vw;
-        @media only screen and (max-width: 768px){
-          width: 90vw;
-          padding-left: 4vw;
-        }
+        width: 100%;
       }
     }
     .text {
+      margin-left: 4%;
+      width: 40%; 
+      @media only screen and (max-width: 768px){
+        margin-left: unset;
+        width: 100%;
+      }
       p {
         @media only screen and (max-width: 768px){
           margin: 2vh 0;
@@ -72,26 +73,27 @@
     }
   }
   &.right {
-    margin: 1.5rem auto;
-    margin: auto;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: flex-start;
-    width: 100%;
+    justify-content: space-between;
+    margin: 1.5rem 0;
     @media only screen and (max-width: 768px){
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-items: center;
     }
     figure {
       img {
-        width: 35vw;
-        @media only screen and (max-width: 768px){
-          width: 90vw;
-          padding-left: 4vw;
-        }
+        width: 100%;
       }
     }
     .text {
+      margin-right: 4%;
+      width: 40%;
+      @media only screen and (max-width: 768px){
+        margin-right: unset;
+        width: 100%;
+      }
       p {
         @media only screen and (max-width: 768px){
           margin: 2vh 0;

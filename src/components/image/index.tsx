@@ -21,7 +21,7 @@ interface ImageProp {
 }
 
 export default function Image(props: ImageProp) {
-  if(props.type == ImageType.ThreeInOne){
+  if(props.type === ImageType.ThreeInOne){
     return (
       <div className="image three" key={props.key}>
         <figure className="image">
@@ -39,7 +39,7 @@ export default function Image(props: ImageProp) {
       </div>
     )
   }
-  if(props.type == ImageType.Left){
+  if(props.type === ImageType.Left){
     return (
       <div className="image left" key={props.key}>
         <figure>
@@ -52,16 +52,16 @@ export default function Image(props: ImageProp) {
       </div>
     )
   }
-  if(props.type == ImageType.Right){
+  if(props.type === ImageType.Right){
     return (
       <div className="image right" key={props.key}>
+        <div className="text">
+          <p>{props.text}</p>
+        </div>
         <figure>
           <img src={props.src[0]} alt={props.image_alt[0]} />
           <figcaption>{props.caption[0]}</figcaption>
         </figure>
-        <div className="text">
-          <p>{props.text}</p>
-        </div>
       </div>
     )
   }

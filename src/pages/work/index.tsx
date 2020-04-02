@@ -33,9 +33,11 @@ export default function Work() {
                 return point
               })}
             </div>
+            {(i === experience.length - 1) ? <></>: <hr></hr>}
           </div>
         );
       })}
+      
       </div>
     </div>
   )
