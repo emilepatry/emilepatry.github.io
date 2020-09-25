@@ -10,12 +10,13 @@ import three from '../../assets/images/experience/3.png';
 export default [
   {
     "company_name": "Hinterland",
-    "company_website": "https://wwww.hinterland.ai/",
+    "company_website": "https://www.hinterland.ai/",
     "title": "Founder, CEO",
     "timeline": "April 2020 - Present",
     "location": "Ottawa, ON",
     "points": [
-      <span className="point" key={1}>Currently in prototypign and testing phase. Seeking mentorship regarding financing a startup.</span>,
+      <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a digital platform. Designed to fine-tune every step of your guest's journey.Currently in prototyping and testing phase. Seeking mentorship regarding financing a startup.</span>,
+      <p className="point" key={2}>Currently in prototyping and testing phase. Seeking mentorship regarding financing a startup.</p>
     ]
   },
   {
