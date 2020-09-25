@@ -7,8 +7,7 @@ const about_me = [
   <p>I'm a product designer based in Waterloo, Canada, pursuing an Honours' Bachelors' Degree in Global Business and Digital Arts at
   the <a className="highlight" href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>, expecting
   to graduate in the spring of 2022.</p>,
-  <p>On the side, I'm converting <a className="highlight" href="https://www.hinterland.ai/" target="_blank" rel="noopener noreferrer">Hinterland</a>,
-  a side-project of mine, into it's own company, as well as running <a className="highlight" href="https://thesage.co/#/" target="_blank" rel="noopener noreferrer">Sage Co</a>, a web design agency I started over
+  <p>On the side, I'm building <a className="highlight" href="https://www.hinterland.ai/" target="_blank" rel="noopener noreferrer">Hinterland</a>, SaaS for boutique travel agents, and running <a className="highlight" href="https://thesage.co/#/" target="_blank" rel="noopener noreferrer">Sage Co</a>, a web design agency I started over
   the summer of 2018 to exercise my design and management skills.</p>,
   <p>Actively seeking Summer 2021 internships!</p>,
 ]
