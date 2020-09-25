@@ -26,10 +26,8 @@ export default [
     "timeline": "July 2018 - Present",
     "location": "Waterloo, ON",
     "points": [
-      <span className="point" key={1}>In the midst of the COVID-19 crisis, my friend <a className="highlight" href="https://arora-aditya.com" target="_blank" rel="noopener noreferrer">Aditya Arora</a> and I partnered up to start a web design agency focussed on supporting small businesses struggling to develop their online presence as in-person traffic slowed worldwide.</span>,
-      <p className="point" key={2}>This pursuit allowed me to continue imroving upon my product design skills with real life clients as internships became hard to find for many university students across the world. As for Aditya, he is now able to work on side projects as he begins his Software Engineer internship at Wish. “This is helping me pay for grocery money... and get better at web stuff” he says.</p>,
-      <p className="point" key={3}>Our clients to date include local newspapers, a print shop, independent professionals, and a law firm.</p>
-    ]
+      <span className="point" key={1}>Over the Summer of 2020, Aditya Arora and I doubled down on Sage Co, the design agency we started in 2018, as an attempt to support SMBs throughout North America and Europe to transition their stores to digital platforms.</span>,
+      <h2 key={1}>Work</h2>,
   },
   {
     "company_name": "Allure Systems",
