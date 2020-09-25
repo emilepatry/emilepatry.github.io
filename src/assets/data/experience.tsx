@@ -15,7 +15,8 @@ export default [
     "timeline": "April 2020 - Present",
     "location": "Ottawa, ON",
     "points": [
-      <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a digital platform. Designed to fine-tune every step of your guest's journey.</span>,
+      <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a digital platform.</span>,
+      <p className="point" key={2}>Designed to fine-tune every step of your guest's journey.</p>
     ]
   },
   {
