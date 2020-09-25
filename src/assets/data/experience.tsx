@@ -27,7 +27,7 @@ export default [
     "location": "Waterloo, ON",
     "points": [
       <span className="point" key={1}>Over the Summer of 2020, Aditya Arora and I doubled down on Sage Co, the design agency we started in 2018, as an attempt to support SMBs throughout North America and Europe to transition their stores to digital platforms.</span>,
-      <h2 key={1}>Work</h2>,
+      <h2 key={2}>Work</h2>,
   },
   {
     "company_name": "Allure Systems",
