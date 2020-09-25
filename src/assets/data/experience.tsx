@@ -34,10 +34,10 @@ export default [
   },
   {
     "company_name": "Allure Systems",
-    "company_website": "https://wwww.hinterland.ai/",
-    "title": "Founder, CEO",
-    "timeline": "March 2020 - Present",
-    "location": "Ottawa, ON",
+    "company_website": "https://www.alluresystems.com/",
+    "title": "Sole Product Designer",
+    "timeline": "March - December 2019",
+    "location": "Paris, FR",
     "points": [
       <span className="point" key={1}>In the midst of the COVID-19 crisis, my friend <a className="highlight" href="https://arora-aditya.com" target="_blank" rel="noopener noreferrer">Aditya Arora</a> and I partnered up to start a web design agency focussed on supporting small businesses struggling to develop their online presence as in-person traffic slowed worldwide.</span>,
       <p className="point" key={2}>This pursuit allowed me to continue imroving upon my product design skills with real life clients as internships became hard to find for many university students across the world. As for Aditya, he is now able to work on side projects as he begins his Software Engineer internship at Wish. “This is helping me pay for grocery money... and get better at web stuff” he says.</p>,
@@ -46,8 +46,8 @@ export default [
   },
   {
     "company_name": "CNH Tours",
-    "company_website": "https://www.alluresystems.com/",
-    "title": "Sole Product Designer",
+    "company_website": "https://www.cnhtours.com/",
+    "title": "UX Case Study",
     "timeline": "March - December 2019",
     "location": "Paris, FR",
     "points": [
