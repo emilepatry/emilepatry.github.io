@@ -11,10 +11,6 @@ const about_me = [
   a side-project of mine, into it's own company, as well as running
   <a className="highlight" href="https://thesage.co/#/" target="_blank" rel="noopener noreferrer">Sage Co</a>, a web design agency I started over
   the summer of 2018 to exercise my design and management skills.</p>,
-  <h3 key={9}>Consulting</h3>,
-  <p>I work directly with SMBs across North America and Europe, typically helping with brand strategy, product design, and website development.</p>,
-  <p>To work with me or hear more, please email me at emile@thesage.co</p>
-
 ]
 
 const socials: {[social: string] : string} = {
