@@ -19,9 +19,8 @@ const about_me = [
 
 const socials: {[social: string] : string} = {
   "Email": "mailto:erpatryb@uwaterloo.ca?Subject=Saying Hello!",
-  "Twitter": "https://twitter.com/patryemile",
-  "Telegram": "https://t.me/blentry",
   "Newsletter": "https://emile.substack.com",
+  "Telegram": "https://t.me/blentry",
   "Resume": "files/Resume.pdf",
 }
 
