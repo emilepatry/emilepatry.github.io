@@ -8,7 +8,6 @@ const about_me = [
   the <a className="highlight" href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>, expecting
   to graduate in the spring of 2022.</p>,
   <p>On the side, I'm converting <a className="highlight" href="https://www.hinterland.ai/" target="_blank" rel="noopener noreferrer">Hinterland</a>, a side-project of mine, into it's own company, as well as running <a className="highlight" href="https://thesage.co/#/" target="_blank" rel="noopener noreferrer">Sage Co</a>, a web design agency I started over the summer of 2018 to exercise my design and management skills.</p>,
-  <p>I’m on the lookout for new opportunities, notably internships. If you would like to talk, or ask questions about just about anything, don’t hesitate to reach out!</p>
 ]
 
 const socials: {[social: string] : string} = {
