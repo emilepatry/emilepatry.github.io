@@ -3,23 +3,66 @@
     "title": "Currently Reading",
     "books": [
       {
-        "title": "Your Brain is a Time Machine: The Neuroscience and Physics of Time",
-        "author": "Dean Buonomano"
+        "title": "Steve Jobs",
+        "author": "Walter Isaacson",
+        "link": "https://www.goodreads.com/book/show/11084145-steve-jobs"
       },
       {
-        "title": "Fooled by Randomness",
-        "author": "Nassim Nicholas Taleb"
+        "title": "Make: The Bootstrapper's Handbook",
+        "author": "Pieter Levels",
+        "link": "https://makebook.io/"
       },
       {
-        "title": "Atomic Habits",
-        "author": "James Clear"
-      }
+        "title": "Your Brain in a Time Machine",
+        "author": "Dean Buonomano",
+        "link": "https://makebook.io/"
+      },
     ]
   },
   {
+    "title": "Favourites",
+    "books": [
+      {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "link": "https://www.goodreads.com/review/show/3052680120"
+      },
+      {
+        "title": "The Mom Test",
+        "author": "Rob Fitzpatrick",
+        "link": "https://www.goodreads.com/review/show/3048181968"
+      },
+      {
+        "title": "The Rational Optimist",
+        "author": "Matt Ridley",
+        "link": "https://www.goodreads.com/review/show/3044992930"
+      },
+      {
+        "title": "The Art of Game Design: A Book of Lenses",
+        "author": "Jesse Schell",
+        "link": "https://www.amazon.ca/Art-Game-Design-Lenses-Second/dp/1466598646"
+      },
+    ]
+  },
+
+  {
     "title": "Want To Read",
     "books": [
-
+      {
+        "title": "Atmamun",
+        "author": "Kapil Gupta",
+        "link": "https://www.goodreads.com/book/show/30008981"
+      },
+      {
+        "title": "The Making of a Manager",
+        "author": "Julie Zhuo",
+        "link": "https://www.goodreads.com/book/show/38821039"
+      },
+      {
+        "title": "Thinking Fast and Slow",
+        "author": "Daniel Kahneman",
+        "link": "https://www.goodreads.com/book/show/11468377"
+      },
     ]
   }
 ]
