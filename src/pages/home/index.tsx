@@ -12,7 +12,7 @@ const about_me = [
 
 const socials: {[social: string] : string} = {
   "General Inquiry": "mailto:erpatryb@uwaterloo.ca?Subject=Saying Hello!",
-  "Work Inquiry": "mailto:emile@thesage.co?Subject=Saying Hello!",
+  "Work Inquiry": "mailto:emile@thesage.co?Subject=Work Inquiry",
   "Book a meeting": "https://calendly.com/emilepatry",
   "Resume": "files/Resume.pdf",
   "":"",
@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="home">
       <img src={me} alt="me"/>
-      <p className="hi-there">Hi there,</p>
+      <p className="hi-there">Hi there, I'm Emile.</p>
       <div className="about-me">
         {about_me.map((text, i) => {
           return <div key={i}>{text}</div>
