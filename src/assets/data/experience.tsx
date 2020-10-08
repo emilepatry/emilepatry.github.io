@@ -43,7 +43,7 @@ export default [
       <p className="point" key={4}>	Having completed a successful internship with the Allure Systems team as
       their sole product designer, I was inspired to practice my client relations and management skills.</p>
       Image({
-        key: 2,
+        key: 5,
         type: ImageType.FullWidth,
         src: [sage_co],
         image_alt: ['Sage Co Website Mock'],
