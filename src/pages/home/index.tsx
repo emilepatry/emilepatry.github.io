@@ -15,6 +15,7 @@ const socials: {[social: string] : string} = {
   "Newsletter": "https://emile.substack.com",
   "Telegram": "https://t.me/blentry",
   "Resume": "files/Resume.pdf",
+  "":"",
 }
 
 export default function Home() {
