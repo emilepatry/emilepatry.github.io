@@ -41,7 +41,7 @@ export default [
       projected summer internship, like many other students. Despite this, I pushed myself to do something
       productive with my summer and learn as much as possible.</p>,
       <p className="point" key={4}>	Having completed a successful internship with the Allure Systems team as
-      their sole product designer, I was inspired to practice my client relations and management skills.</p>
+      their sole product designer, I was inspired to practice my client relations and management skills.</p>,
       Image({
         key: 5,
         type: ImageType.FullWidth,
