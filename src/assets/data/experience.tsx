@@ -42,12 +42,6 @@ export default [
       productive with my summer and learn as much as possible.</p>,
       <p className="point" key={4}>	Having completed a successful internship with the Allure Systems team as
       their sole product designer, I was inspired to practice my client relations and management skills.<p>,
-      Image({
-        key: 3,
-        type: ImageType.FullWidth,
-        src: [sage_co],
-        image_alt: ['Sage Co Website Mockup'],
-      }),
     ]
   },
   {
