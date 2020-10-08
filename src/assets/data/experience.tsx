@@ -17,6 +17,8 @@ export default [
     "points": [
       <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a digital platform.</span>,
       <p className="point" key={2}>Designed to fine-tune every step of your guest's journey.</p>
+      <div style="width:100%;height:0;padding-bottom:100%;position:relative;">,
+      <iframe src="https://giphy.com/embed/l3vQYe7l1TInypnYA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>,
     ]
   },
   {

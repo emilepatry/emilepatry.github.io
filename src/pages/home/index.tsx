@@ -14,7 +14,7 @@ const socials: {[social: string] : string} = {
   "General Inquiry": "mailto:erpatryb@uwaterloo.ca?Subject=Saying Hello!",
   "Work Inquiry": "mailto:emile@thesage.co?Subject=Work Inquiry",
   "Book a meeting": "https://calendly.com/emilepatry",
-  "Resume": "files/Resume.pdf",
+  "Resume.pdf": "files/Resume.pdf",
   "":"",
 }
 
