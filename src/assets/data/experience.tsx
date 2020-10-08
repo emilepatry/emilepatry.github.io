@@ -17,8 +17,9 @@ export default [
     "location": "Ottawa, ON",
     "points": [
       <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a digital platform.</span>,
+      <p>Designed to fine-tune every step of your guests journey.</p>,
       Image({
-        key: 2,
+        key: 3,
         type: ImageType.FullWidth,
         src: [hinterland_cover],
         image_alt: ['Hinterland Logo Cover Image'],
