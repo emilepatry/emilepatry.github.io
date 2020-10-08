@@ -17,7 +17,8 @@ export default [
     "timeline": "April 2020 - Present",
     "location": "Ottawa, ON",
     "points": [
-      <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a digital platform -- designed to fine-tune every step of your guests' journey.</span>,
+      <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a
+      digital platform - designed to fine-tune every step of your guests' journey.</span>,
       Image({
         key: 2,
         type: ImageType.FullWidth,
@@ -47,7 +48,6 @@ export default [
         type: ImageType.FullWidth,
         src: [sage_co],
         image_alt: ['Sage Co Website Mock'],
-        caption: ['']
       }),
     ]
   },
