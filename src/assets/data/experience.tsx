@@ -16,10 +16,9 @@ export default [
     "timeline": "April 2020 - Present",
     "location": "Ottawa, ON",
     "points": [
-      <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a digital platform.</span>,
-      <p>Designed to fine-tune every step of your guests journey.</p>,
+      <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a digital platform - designed to fine-tune every step of your guests' journey.</span>,
       Image({
-        key: 3,
+        key: 2,
         type: ImageType.FullWidth,
         src: [hinterland_cover],
         image_alt: ['Hinterland Logo Cover Image'],
@@ -35,7 +34,9 @@ export default [
     "timeline": "July 2018 - Present",
     "location": "Waterloo, ON",
     "points": [
-      <span className="point" key={1}>Over the Summer of 2020, Aditya Arora and I doubled down on Sage Co, the design agency we started in 2018, as an attempt to support SMBs throughout North America and Europe to transition their stores to digital platforms.</span>,
+      <span className="point" key={1}>Over the Summer of 2020, Aditya Arora and I doubled down on Sage Co,
+      the design agency we started in 2018, as an attempt to support SMBs throughout North America and Europe
+      to transition their stores to digital platforms.</span>,
       <h2 key={2}>Work</h2>,
     ]
   },
