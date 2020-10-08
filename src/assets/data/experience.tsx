@@ -47,6 +47,7 @@ export default [
         type: ImageType.FullWidth,
         src: [sage_co],
         image_alt: ['Sage Co Website Mock'],
+        caption: ['']
       }),
     ]
   },
