@@ -1,7 +1,7 @@
 import React from 'react';
 import {ImageType, Image} from '../../components/image';
 
-import hinterland_cover from '../../assets/images/experience/hinterland_cover.gif';
+import hinterland_cover from '../../assets/images/experience/hinterland_cover.png';
 import sage_co from '../../assets/images/experience/sage_co.png';
 import girls_friday_1 from '../../assets/images/experience/girls_friday_1.png';
 import alluremockup_1 from '../../assets/images/experience/alluremockup_1.png';
