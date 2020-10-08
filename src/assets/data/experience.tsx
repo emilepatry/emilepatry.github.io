@@ -19,8 +19,9 @@ export default [
     "points": [
       <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a
       digital platform - designed to fine-tune every step of your guests' journey.</span>,
+      <p className="point" key={2}>Test</p>,
       Image({
-        key: 2,
+        key: 3,
         type: ImageType.FullWidth,
         src: [hinterland_cover],
         image_alt: ['Hinterland Logo Cover Image'],
