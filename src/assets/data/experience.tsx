@@ -77,48 +77,13 @@ export default [
     "timeline": "March - December 2019",
     "location": "Paris, FR",
     "points": [
-      <p className="point" key={1}>Allure Systems leverages machine learning to automate the traditional photoshoot. Their solutions primarily  e-commerce stylists a wide range of tools to choose from, easing their workflow, maximizing productivity, and facilitating inclusivity in the fashion industry.</p>,
-      <p className="point" key={2}>In March 2019, I had the opportunity to join Allure Systems as their first product designer. As an intern, I had to familiarize myself with their service through extensive interviews with all of the company's stakeholders and early users and collect data from their progress.</p>,
+      <span className="point" key={1}>In 2019 I had the opportunity to work in a fashion-tech startup as the only Product Designer. Here are a couple of things that I learned on the way, and a glimpse of what I got to work on.</span>,
       Image({
-        key: 3,
+        key: 18,
+        caption: ["The end result.",],
         type: ImageType.FullWidth,
-        src: [girls_friday_1],
-        image_alt: ['give it a relevant alt'],
-        caption: ['None of these models have ever worn these clothes.',],
-      }),
-      <p className="point" key={4}>I had the responsibility to create and define the flow and UX what would be Allure System's v1.0 product. During my time in Paris, the three biggest lessons I learned were how to product manage myself, how to determine task prioritization, and how to efficiently communicate with developers.</p>,
-      <h2 key={5}>The Solution</h2>,
-      <p className="point" key={6}>The Allure Systems solution incorporates everything a stylist needs in a clean and user-friendly interface. Starting from what was an unintuitive product built by a team of developers, the solution offers the end-user a full scope of customizable options. It also enhances the B2C relationship through in-app recommendations.</p>,
-      Image({
-        key: 7,
-        type: ImageType.FullWidth,
-        src: [alluremockup_1],
-        image_alt: ['give it a relevant alt'],
-        caption: ['Shooting App  interface.',],
-      }),
-      Image({
-        key: 8,
-        type: ImageType.ThreeInOne,
-        src: [one, two, three],
-        image_alt: ['give it a relevant alt', 'give it a relevant alt', 'give it a relevant alt'],
-        caption: ['', '', 'Technicians adding a new series of mannequins.',],
-      }),
-      <h3 key={9}>Highlights</h3>,
-      Image({
-        key: 10,
-        type: ImageType.Left,
-        src: [alluremockup_1],
-        image_alt: ['give it a relevant alt',],
-        caption: ['',],
-        text: "Indulging in the Parisian lifestyle for just under a year was lovely. I'll be missing daily viennoiseries the most..."
-      }),
-      Image({
-        key: 11,
-        type: ImageType.Right,
-        src: [alluremockup_1],
-        image_alt: ['give it a relevant alt',],
-        caption: ['',],
-        text: "Indulging in the Parisian lifestyle for just under a year was lovely. I'll be missing daily viennoiseries the most..."
+        src: [allure],
+        image_alt: ['Allure Solution Mock',],
       }),
     ]
   }
