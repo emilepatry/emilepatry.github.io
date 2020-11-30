@@ -18,7 +18,6 @@ export default [
     "location": "Ottawa, ON",
     "points": [
       <span className="point" key={1}>Hinterland allows tour operators to scale while preserving the personalized service that makes them successful.</span>,
-      <p className="point" key={2}>Currently building an MVP, conducting user research, and receiving mentorship from <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
       Image({
         key: 9,
         caption: ["Notion organization is everything...",],
@@ -26,6 +25,7 @@ export default [
         src: [hinterland_notion],
         image_alt: ['Hinterland Notion'],
       }),
+      <p className="point" key={2}>Currently building an MVP, conducting user research, and receiving mentorship from <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
     ]
   },
   {
@@ -77,8 +77,9 @@ export default [
     "timeline": "March - December 2019",
     "location": "Paris, FR",
     "points": [
-      <span className="point" key={1}>In 2019 I had the opportunity to work in a fashion-tech startup as the only Product Designer. Here are a couple of things that I learned on the way, and a glimpse of what I got to work on.</span>,
-      Image({
+      <span className="point" key={1}>CNH Tours is a rapidly growing travel agency focused on the Galapagos Archipelago, working with over four hundred travellers a year.</span>,
+      <h2 key={2}>What is CNH Tours?</h2>,
+      <p className="point" key={3}>"Few Galapagos cruise agencies know the Galapagos better than we do. We help you find the ship that best meets your needs based on our knowledge of the offered cruises." -- Heather Blenkiron, CEO of CNH Tours</p>,
         key: 18,
         caption: ["The end result.",],
         type: ImageType.FullWidth,
