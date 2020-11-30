@@ -4,7 +4,7 @@ import {ImageType, Image} from '../../components/image';
 import hinterland_notion from '../../assets/images/experience/hinterland_notion.png';
 import sage_co from '../../assets/images/experience/sage_co.png';
 import girls_friday_1 from '../../assets/images/experience/girls_friday_1.png';
-import alluremockup_1 from '../../assets/images/experience/allure.png';
+import allure from '../../assets/images/experience/alluresystems.png';
 import one from '../../assets/images/experience/1.png';
 import two from '../../assets/images/experience/2.png';
 import three from '../../assets/images/experience/3.png';
