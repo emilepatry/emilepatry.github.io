@@ -22,6 +22,7 @@ export default [
       <p className="point" key={2}>Test</p>,
       Image({
         key: 3,
+        caption: "Hinterland",
         type: ImageType.FullWidth,
         src: [hinterland_cover],
         image_alt: ['Hinterland Logo Cover Image'],
