@@ -11,10 +11,10 @@ const about_me = [
 ]
 
 const socials: {[social: string] : string} = {
-  "General Inquiry": "mailto:erpatryb@uwaterloo.ca?Subject=Saying Hello!",
-  "Work Inquiry": "mailto:emile@thesage.co?Subject=Work Inquiry",
+  "Contact": "mailto:emile@thesage.co?Subject=Saying Hello!",
   "Book a meeting": "https://calendly.com/emilepatry",
-  "Resume.pdf": "files/Resume.pdf",
+  "Dribbble": "https://dribbble.com/patry",
+  "Resume": "files/Resume.pdf",
   "":"",
 }
 
