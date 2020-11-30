@@ -22,7 +22,7 @@ export default [
       <p className="point" key={2}>Test</p>,
       Image({
         key: 3,
-        caption: "Hinterland",
+        caption: ["",],
         type: ImageType.FullWidth,
         src: [hinterland_cover],
         image_alt: ['Hinterland Logo Cover Image'],
@@ -47,6 +47,7 @@ export default [
       their sole product designer, I was inspired to practice my client relations and management skills.</p>,
       Image({
         key: 5,
+        caption: ["",],
         type: ImageType.FullWidth,
         src: [sage_co],
         image_alt: ['Sage Co Website Mock'],
@@ -76,6 +77,7 @@ export default [
       <p className="point" key={2}>In March 2019, I had the opportunity to join Allure Systems as their first product designer. As an intern, I had to familiarize myself with their service through extensive interviews with all of the company's stakeholders and early users and collect data from their progress.</p>,
       Image({
         key: 3,
+        caption: ["",],
         type: ImageType.FullWidth,
         src: [girls_friday_1],
         image_alt: ['give it a relevant alt'],
@@ -86,6 +88,7 @@ export default [
       <p className="point" key={6}>The Allure Systems solution incorporates everything a stylist needs in a clean and user-friendly interface. Starting from what was an unintuitive product built by a team of developers, the solution offers the end-user a full scope of customizable options. It also enhances the B2C relationship through in-app recommendations.</p>,
       Image({
         key: 7,
+        caption: ["",],
         type: ImageType.FullWidth,
         src: [alluremockup_1],
         image_alt: ['give it a relevant alt'],
@@ -93,6 +96,7 @@ export default [
       }),
       Image({
         key: 8,
+        caption: ["",],
         type: ImageType.ThreeInOne,
         src: [one, two, three],
         image_alt: ['give it a relevant alt', 'give it a relevant alt', 'give it a relevant alt'],
@@ -101,6 +105,7 @@ export default [
       <h3 key={9}>Highlights</h3>,
       Image({
         key: 10,
+        caption: ["",],
         type: ImageType.Left,
         src: [alluremockup_1],
         image_alt: ['give it a relevant alt'],
@@ -109,6 +114,7 @@ export default [
       }),
       Image({
         key: 11,
+        caption: ["",],
         type: ImageType.Right,
         src: [alluremockup_1],
         image_alt: ['give it a relevant alt'],
