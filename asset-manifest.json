@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.17f23f0f.chunk.css",
-    "main.js": "/static/js/main.5030669f.chunk.js",
-    "main.js.map": "/static/js/main.5030669f.chunk.js.map",
+    "main.js": "/static/js/main.15a674b5.chunk.js",
+    "main.js.map": "/static/js/main.15a674b5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.30aea187.js",
     "runtime-main.js.map": "/static/js/runtime-main.30aea187.js.map",
-    "static/js/2.07581771.chunk.js": "/static/js/2.07581771.chunk.js",
-    "static/js/2.07581771.chunk.js.map": "/static/js/2.07581771.chunk.js.map",
+    "static/js/2.7b953749.chunk.js": "/static/js/2.7b953749.chunk.js",
+    "static/js/2.7b953749.chunk.js.map": "/static/js/2.7b953749.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2807f7c5b1e8dd41241debc690a09f7f.js": "/precache-manifest.2807f7c5b1e8dd41241debc690a09f7f.js",
+    "precache-manifest.231658f89edd44cd38850fab73c4407a.js": "/precache-manifest.231658f89edd44cd38850fab73c4407a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.17f23f0f.chunk.css.map": "/static/css/main.17f23f0f.chunk.css.map",
-    "static/js/2.07581771.chunk.js.LICENSE.txt": "/static/js/2.07581771.chunk.js.LICENSE.txt",
+    "static/js/2.7b953749.chunk.js.LICENSE.txt": "/static/js/2.7b953749.chunk.js.LICENSE.txt",
     "static/media/1.png": "/static/media/1.87e1c097.png",
     "static/media/2.png": "/static/media/2.d747020b.png",
     "static/media/3.png": "/static/media/3.cc2fd237.png",
@@ -20,7 +20,6 @@
     "static/media/caret.svg": "/static/media/caret.e0d6a20f.svg",
     "static/media/day.svg": "/static/media/day.f21b1b03.svg",
     "static/media/girls_friday_1.png": "/static/media/girls_friday_1.d882cebc.png",
-    "static/media/hinterland_cover.png": "/static/media/hinterland_cover.06470c8b.png",
     "static/media/hinterland_notion.png": "/static/media/hinterland_notion.21739f12.png",
     "static/media/me.jpg": "/static/media/me.dda40473.jpg",
     "static/media/night.svg": "/static/media/night.268af63a.svg",
@@ -28,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.30aea187.js",
-    "static/js/2.07581771.chunk.js",
+    "static/js/2.7b953749.chunk.js",
     "static/css/main.17f23f0f.chunk.css",
-    "static/js/main.5030669f.chunk.js"
+    "static/js/main.15a674b5.chunk.js"
   ]
 }

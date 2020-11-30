@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a73d80e299b351ccb7f211c2d8d4d02",
+    "revision": "d223743367dfca4381a69659b2775df8",
     "url": "/index.html"
   },
   {
-    "revision": "e0c93383d944b1cee223",
+    "revision": "d562f6219e8a01778bdd",
     "url": "/static/css/main.17f23f0f.chunk.css"
   },
   {
-    "revision": "71461c154f2282c56b21",
-    "url": "/static/js/2.07581771.chunk.js"
+    "revision": "090a210d8c48a07617dd",
+    "url": "/static/js/2.7b953749.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.07581771.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7b953749.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e0c93383d944b1cee223",
-    "url": "/static/js/main.5030669f.chunk.js"
+    "revision": "d562f6219e8a01778bdd",
+    "url": "/static/js/main.15a674b5.chunk.js"
   },
   {
     "revision": "b0023aec8f939e9a9bca",
@@ -86,10 +86,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d882cebc43bd168d70630db940961b5d",
     "url": "/static/media/girls_friday_1.d882cebc.png"
-  },
-  {
-    "revision": "06470c8b14522fe5e2678d3162570a54",
-    "url": "/static/media/hinterland_cover.06470c8b.png"
   },
   {
     "revision": "21739f12811e378a1fe6d73a2d1d8007",
