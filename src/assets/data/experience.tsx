@@ -4,7 +4,7 @@ import {ImageType, Image} from '../../components/image';
 import hinterland_notion from '../../assets/images/experience/hinterland_notion.png';
 import sage_co from '../../assets/images/experience/sage_co.png';
 import girls_friday_1 from '../../assets/images/experience/girls_friday_1.png';
-import alluremockup_1 from '../../assets/images/experience/alluremockup_1.png';
+import alluremockup_1 from '../../assets/images/experience/allure.png';
 import one from '../../assets/images/experience/1.png';
 import two from '../../assets/images/experience/2.png';
 import three from '../../assets/images/experience/3.png';
@@ -36,7 +36,7 @@ export default [
     "location": "Waterloo, ON",
     "points": [
       <span className="point" key={1}>	Over the Summer of 2020, <a className="highlight" href="https://arora-aditya.com" target="_blank" rel="noopener noreferrer">Aditya Arora</a> and I doubled down on Sage Co,
-      the design agency we started in 2018, as an attempt to support SMBs throughout North America and Europe
+      the design agency we started in 2018. Our goal was to support SMBs throughout North America and Europe
       to transition their stores to digital platforms.</span>,
       <h2 key={2}>Getting Started</h2>,
       <p className="point" key={3}>At the beginning of the COVID-19 pandemic, I had the misfortune to lose my
@@ -60,9 +60,14 @@ export default [
     "timeline": "March - December 2019",
     "location": "Paris, FR",
     "points": [
-      <span className="point" key={1}>In the midst of the COVID-19 crisis, my friend <a className="highlight" href="https://arora-aditya.com" target="_blank" rel="noopener noreferrer">Aditya Arora</a> and I partnered up to start a web design agency focussed on supporting small businesses struggling to develop their online presence as in-person traffic slowed worldwide.</span>,
-      <p className="point" key={2}>This pursuit allowed me to continue imroving upon my product design skills with real life clients as internships became hard to find for many university students across the world. As for Aditya, he is now able to work on side projects as he begins his Software Engineer internship at Wish. “This is helping me pay for grocery money... and get better at web stuff” he says.</p>,
-      <p className="point" key={3}>Our clients to date include local newspapers, a print shop, independent professionals, and a law firm.</p>
+      <span className="point" key={1}>In 2019 I had the opportunity to work in a fashion-tech startup as the only Product Designer. Here are a couple of things that I learned on the way, and a glimpse of what I got to work on.</span>,
+      Image({
+        key: 12,
+        caption: ["The end result.",],
+        type: ImageType.FullWidth,
+        src: [allure],
+        image_alt: ['Allure Solution Mock'],
+      }),
     ]
   },
   {
