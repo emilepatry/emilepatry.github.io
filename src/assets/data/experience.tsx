@@ -13,19 +13,18 @@ export default [
   {
     "company_name": "Hinterland",
     "company_website": "https://www.hinterland.ai/",
-    "title": "Founder, CEO",
+    "title": "Founder",
     "timeline": "April 2020 - Present",
     "location": "Ottawa, ON",
     "points": [
-      <span className="point" key={1}>Hinterland brings the boutique tour operator's value proposition to a
-      digital platform - designed to fine-tune every step of your guests' journey.</span>,
-      <p className="point" key={2}>Test</p>,
+      <span className="point" key={1}>Hinterland allows tour operators to scale while preserving the personalized service that makes them successful.</span>,
+      <p className="point" key={2}>Currently building MVP, conducting user research, and receiving mentorship from the <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
       Image({
         key: 3,
         caption: ["",],
         type: ImageType.FullWidth,
-        src: [hinterland_cover],
-        image_alt: ['Hinterland Logo Cover Image'],
+        src: [hinterland_notion],
+        image_alt: ['Hinterland Notion Dashboard'],
       }),
     ]
   },
