@@ -18,7 +18,7 @@ export default [
     "location": "Ottawa, ON",
     "points": [
       <span className="point" key={1}>Hinterland allows tour operators to scale while preserving the personalized service that makes them successful.</span>,
-      <p className="point" key={2}>Currently building an MVP, conducting user research, and receiving mentorship from the <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
+      <p className="point" key={2}>Currently building an MVP, conducting user research, and receiving mentorship from <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
       Image({
         key: 9,
         caption: ["Notion organization is everything...",],
