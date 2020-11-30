@@ -1,7 +1,6 @@
 import React from 'react';
 import {ImageType, Image} from '../../components/image';
 
-import hinterland_cover from '../../assets/images/experience/hinterland_cover.png';
 import hinterland_notion from '../../assets/images/experience/hinterland_notion.png';
 import sage_co from '../../assets/images/experience/sage_co.png';
 import girls_friday_1 from '../../assets/images/experience/girls_friday_1.png';
@@ -21,15 +20,8 @@ export default [
       <span className="point" key={1}>Hinterland allows tour operators to scale while preserving the personalized service that makes them successful.</span>,
       <p className="point" key={2}>Currently building an MVP, conducting user research, and receiving mentorship from the <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
       Image({
-        key: 3,
-        caption: ["",],
-        type: ImageType.FullWidth,
-        src: [hinterland_cover],
-        image_alt: ['Hinterland Logo Cover Image'],
-      }),
-      Image({
         key: 9,
-        caption: ["",],
+        caption: ["Notion organization is everything...",],
         type: ImageType.FullWidth,
         src: [hinterland_notion],
         image_alt: ['Hinterland Notion'],
