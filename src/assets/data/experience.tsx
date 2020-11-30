@@ -62,11 +62,11 @@ export default [
     "points": [
       <span className="point" key={1}>In 2019 I had the opportunity to work in a fashion-tech startup as the only Product Designer. Here are a couple of things that I learned on the way, and a glimpse of what I got to work on.</span>,
       Image({
-        key: 12,
+        key: 16,
         caption: ["The end result.",],
         type: ImageType.FullWidth,
         src: [allure],
-        image_alt: ['Allure Solution Mock'],
+        image_alt: ['Allure Solution Mock',],
       }),
     ]
   },
