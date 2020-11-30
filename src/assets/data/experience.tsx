@@ -23,8 +23,8 @@ export default [
         key: 3,
         caption: ["",],
         type: ImageType.FullWidth,
-        src: [hinterland_notion],
-        image_alt: ['Hinterland Notion Dashboard'],
+        src: [hinterland_cover],
+        image_alt: ['Hinterland Logo Cover Image'],
       }),
     ]
   },

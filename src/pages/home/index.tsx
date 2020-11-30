@@ -7,12 +7,11 @@ const about_me = [
   <p>I help companies and organizations of all sizes build beautiful products through research-driven strategy,
   accessible and thoughtful design, and the constant pursuit of timeless visual principles.</p>,
   <p>Today I'm focused on building <a className="highlight" href="https://www.hinterland.ai/" target="_blank" rel="noopener noreferrer">Hinterland</a>, all while pursuing a Bachelor's Degree in Global Business and Digital Arts at the <a className="highlight" href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>. </p>,
-  <p>Actively seeking Summer 2021 <a className="highlight" href="https://www.linkedin.com/in/emilepatry/" target="_blank" rel="noopener noreferrer">internships!</a></p>,
 ]
 
 const socials: {[social: string] : string} = {
   "Contact": "mailto:emile@thesage.co?Subject=Saying Hello!",
-  "Book a meeting": "https://calendly.com/emilepatry",
+  "LinkedIn": "https://www.linkedin.com/in/emilepatry/",
   "Dribbble": "https://dribbble.com/patry",
   "Resume": "files/Resume.pdf",
   "":"",
