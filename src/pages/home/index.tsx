@@ -27,7 +27,7 @@ export default function Home() {
           return <div key={i}>{text}</div>
         })}
       </div>
-      <div className="socials">
+      <div className="my-links">
         {Object.keys(socials).map((key, i) => {
           return <a key={i} target="_blank" rel="noopener noreferrer" className="highlight" href={socials[key]}><p>{key}</p></a>
         })}
