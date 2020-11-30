@@ -18,13 +18,20 @@ export default [
     "location": "Ottawa, ON",
     "points": [
       <span className="point" key={1}>Hinterland allows tour operators to scale while preserving the personalized service that makes them successful.</span>,
-      <p className="point" key={2}>Currently building MVP, conducting user research, and receiving mentorship from the <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
+      <p className="point" key={2}>Currently building an MVP, conducting user research, and receiving mentorship from the <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
       Image({
         key: 3,
         caption: ["",],
         type: ImageType.FullWidth,
         src: [hinterland_cover],
         image_alt: ['Hinterland Logo Cover Image'],
+      }),
+      Image({
+        key: 9,
+        caption: ["",],
+        type: ImageType.FullWidth,
+        src: [hinterland_notion],
+        image_alt: ['Hinterland Notion'],
       }),
     ]
   },
