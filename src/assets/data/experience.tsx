@@ -73,14 +73,19 @@ export default [
   {
     "company_name": "CNH Tours",
     "company_website": "https://www.cnhtours.com/",
-    "title": "UX Case Study",
+    "title": "Web Design Case Study",
     "timeline": "March - December 2019",
     "location": "Paris, FR",
     "points": [
       <span className="point" key={1}>CNH Tours is a rapidly growing travel agency focused on the Galapagos Archipelago, working with over four hundred travellers a year.</span>,
       <h2 key={2}>What is CNH Tours?</h2>,
       <p className="point" key={3}>"Few Galapagos cruise agencies know the Galapagos better than we do. We help you find the ship that best meets your needs based on our knowledge of the offered cruises." -- Heather Blenkiron, CEO of CNH Tours</p>,
-      <p className="point" key={3}>Booking a cruise to the Galapagos is overwhelming. CNH Tours travel agents guide their travellers in finding their perfect ship, itinerary, dates, and trip extensions. They then facilitate the booking process and remain at the guests' disposal throughout their trip.</p>,
+      <p className="point" key={4}>Booking a cruise to the Galapagos is overwhelming. CNH Tours travel agents guide their travellers in finding their perfect ship, itinerary, dates, and trip extensions. They then facilitate the booking process and remain at the guests' disposal throughout their trip.</p>,
+      <p className="point" key={5}>The demographic they work with are wealthy, highly educated professionals from first-world countries. More specifically, they range in ages from millennials to baby boomers.</p>,
+      <h3 key={6}>The Challenge</h3>,
+      <p className="point" key={7}>CNH Tours' online presence does not reflect the quality of services offered. How might we improve their services and look in a scalable manner?</p>,
+      <h3 key={8}>The Proposed Solution</h3>,
+      <p className="point" key={9}>A complete redesign of the information architecture, user flow, and aesthetics of the CNH Tours website. Integration of CNH side services (Galapagos Advisor, Galapagos for Families, and Epicurean Galapagos).</p>,
       Image({
         key: 18,
         caption: ["The end result.",],
