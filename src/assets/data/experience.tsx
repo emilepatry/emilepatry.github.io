@@ -107,7 +107,7 @@ export default [
       <h1 key={13}>Research</h1>,
       <p className="point" key={14}>To gain a deeper understanding of the vast scope of guests CNH Tours caters to, I
       divided my research into three sections: Influences & Trends, Quantitative Research, and Qualitative Research.</p>,
-      <h2 key{15}>Influences, Inspiration, and Future Trends</h2>,
+      <h2 key={15}>Influences, Inspiration, and Future Trends</h2>,
       Image({
         key: 18,
         caption: ["The end result.",],
