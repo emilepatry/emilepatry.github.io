@@ -1,57 +1,37 @@
 @font-face {
-    font-family: 'SF-Pro-Text';
-    src: url("./assets/font/SF-Pro-Text-Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: 'SF-Pro-Text';
-    font-weight: bold;
-    src: url("./assets/font/SF-Pro-Text-Medium.otf") format("opentype");
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src:  url('./assets/font/OpenSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src:  url('./assets/font/OpenSans-SemiBold.ttf') format('truetype');
+  font-family: 'Esm';
   font-weight: 600;
+  src: url("./assets/font/esm/Esm-Black.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src:  url('./assets/font/OpenSans-Bold.ttf') format('truetype');
-  font-weight: 700;
+  font-family: 'Esm';
+  font-weight: 500;
+  src: url("./assets/font/esm/Esm-Bold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:  url('./assets/font/SourceSansPro-Light.ttf') format('truetype'), local('Avenir');
-  font-weight: 300;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Source Sans Pro';
-  src:  url('./assets/font/SourceSansPro-Regular.ttf') format('truetype'), local('Avenir');
+  font-family: 'Esm';
   font-weight: 400;
-  font-display: swap;
+  src: url("./assets/font/esm/Esm-Medium.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url('./assets/font/SourceSansPro-SemiBold.ttf') format('truetype'), local('Avenir');
-  font-weight: 600;
-  font-display: swap;
+  font-family: 'Esm';
+  font-weight: 300;
+  src: url("./assets/font/esm/Esm-Regular.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:  url('./assets/font/SourceSansPro-Bold.ttf') format('truetype'), local('Avenir');
-  font-weight: 700;
-  font-display: swap;
+  font-family: 'Esm';
+  font-weight: 200;
+  src: url("./assets/font/esm/Esm-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Esm';
+  font-weight: 100;
+  src: url("./assets/font/esm/Esm-Thin.otf") format("opentype");
 }
 
 *, *:after, *:before {
@@ -67,7 +47,7 @@ html {
     height: 100vh;
     padding: 0;
     margin: 0;
-    font-family: 'SF-Pro-Text', sans-serif;
+    font-family: 'Esm', sans-serif;
     font-weight: 300;
     outline: none;
     p {
