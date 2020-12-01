@@ -8,7 +8,7 @@ interface Job {
   company_name: string;
   company_website: string;
   title: string;
-  timeline: string;
+  timeline: <i class="fal fa-calendar"></i> string;
   location: string;
   points: string[];
 }
@@ -37,7 +37,7 @@ export default function Work() {
           </div>
         );
       })}
-      
+
       </div>
     </div>
   )
