@@ -78,20 +78,35 @@ export default [
     "timeline": "March - December 2019",
     "location": "Paris, FR",
     "points": [
-      <span className="point" key={1}>CNH Tours is a rapidly growing travel agency focused on the Galapagos Archipelago, working with over four hundred travellers a year.</span>,
+      <span className="point" key={1}>CNH Tours is a rapidly growing travel agency focused on the Galapagos Archipelago,
+      working with over four hundred travellers a year.</span>,
       <h2 key={2}>What is CNH Tours?</h2>,
-      <p className="point" key={3}>"Few Galapagos cruise agencies know the Galapagos better than we do. We help you find the ship that best meets your needs based on our knowledge of the offered cruises." -- Heather Blenkiron, CEO of CNH Tours</p>,
-      <p className="point" key={4}>Booking a cruise to the Galapagos is overwhelming. CNH Tours travel agents guide their travellers in finding their perfect ship, itinerary, dates, and trip extensions. They then facilitate the booking process and remain at the guests' disposal throughout their trip.</p>,
-      <p className="point" key={5}>The demographic they work with are wealthy, highly educated professionals from first-world countries. More specifically, they range in ages from millennials to baby boomers.</p>,
+      <p className="point" key={3}>"Few Galapagos cruise agencies know the Galapagos better than we do. We help you find
+      the ship that best meets your needs based on our knowledge of the offered cruises." -- Heather Blenkiron, CEO of
+      CNH Tours</p>,
+      <p className="point" key={4}>Booking a cruise to the Galapagos is overwhelming. CNH Tours travel agents guide
+      their travellers in finding their perfect ship, itinerary, dates, and trip extensions. They then facilitate the
+      booking process and remain at the guests' disposal throughout their trip.</p>,
+      <p className="point" key={5}>The demographic they work with are wealthy, highly educated professionals from
+      first-world countries. More specifically, they range in ages from millennials to baby boomers.</p>,
       <h3 key={6}>The Challenge</h3>,
-      <p className="point" key={7}>CNH Tours' online presence does not reflect the quality of services offered. How might we improve their services and look in a scalable manner?</p>,
+      <p className="point" key={7}>CNH Tours' online presence does not reflect the quality of services offered. How
+      might we improve their services and look in a scalable manner?</p>,
       <h3 key={8}>The Proposed Solution</h3>,
-      <p className="point" key={9}>A complete redesign of the information architecture, user flow, and aesthetics of the CNH Tours website. Integration of CNH side services (Galapagos Advisor, Galapagos for Families, and Epicurean Galapagos).</p>,
+      <p className="point" key={9}>A complete redesign of the information architecture, user flow, and aesthetics
+      of the CNH Tours website. Integration of CNH side services (Galapagos Advisor, Galapagos for Families, and
+        Epicurean Galapagos).</p>,
       <h3 key={10}>My Role</h3>,
-      <p className="point" key={11}>As this was an independent side project, I acted as a player with many hats. This included being a project manager, UI Designer, User Researcher. Ultimately, I acted as the sole UX Designer for this project.</p>,
-      <p className="point" key={12}>Nonetheless, I could not have completed this without the help and support of fellow students and mentors. Thank you to University of Waterloo students Kenneth Nambgung and Shannon Henderson, and professors Karin Schmidlin, Tabatha Dominguez, and Hira Javed for guiding me through various Business, UX, and Customer Experience design courses.</p>,
+      <p className="point" key={11}>As this was an independent side project, I acted as a player with many hats.
+      This included being a project manager, UI Designer, User Researcher. Ultimately, I acted as the sole UX Designer
+      for this project.</p>,
+      <p className="point" key={12}>Nonetheless, I could not have completed this without the help and support of fellow
+      students and mentors. Thank you to University of Waterloo students Kenneth Nambgung and Shannon Henderson, and
+      professors Karin Schmidlin, Tabatha Dominguez, and Hira Javed for guiding me through various Business, UX, and
+      Customer Experience design courses.</p>,
       <h1 key={13}>Research</h1>,
-      <p className="point" key={14}>To gain a deeper understanding of the vast scope of guests CNH Tours caters to, I divided my research into three sections: Influences & Trends, Quantitative Research, and Qualitative Research.</p>,
+      <p className="point" key={14}>To gain a deeper understanding of the vast scope of guests CNH Tours caters to, I
+      divided my research into three sections: Influences & Trends, Quantitative Research, and Qualitative Research.</p>,
       <h2 key{15}>Influences, Inspiration, and Future Trends</h2>,
       <p className="point" key={15}></p>,
       Image({
