@@ -80,6 +80,7 @@ export default [
       <span className="point" key={1}>CNH Tours is a rapidly growing travel agency focused on the Galapagos Archipelago, working with over four hundred travellers a year.</span>,
       <h2 key={2}>What is CNH Tours?</h2>,
       <p className="point" key={3}>"Few Galapagos cruise agencies know the Galapagos better than we do. We help you find the ship that best meets your needs based on our knowledge of the offered cruises." -- Heather Blenkiron, CEO of CNH Tours</p>,
+      <p className="point" key={3}>Booking a cruise to the Galapagos is overwhelming. CNH Tours travel agents guide their travellers in finding their perfect ship, itinerary, dates, and trip extensions. They then facilitate the booking process and remain at the guests' disposal throughout their trip.</p>,
       Image({
         key: 18,
         caption: ["The end result.",],
