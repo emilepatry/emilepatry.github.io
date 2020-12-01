@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "368604a813f1f69fd7106a80b6de57a4",
+    "revision": "bca2468bda78fb8a2108402dfc08b798",
     "url": "/index.html"
   },
   {
-    "revision": "7e1b4b4638434196f44e",
-    "url": "/static/css/main.d6b45a99.chunk.css"
+    "revision": "5dc6da18e13c7582cdbf",
+    "url": "/static/css/main.1b80e5e9.chunk.css"
   },
   {
     "revision": "d6f0d16602c2edc7a599",
@@ -16,36 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.add52e60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e1b4b4638434196f44e",
+    "revision": "5dc6da18e13c7582cdbf",
     "url": "/static/js/main.6f2d3c8b.chunk.js"
   },
   {
     "revision": "b0023aec8f939e9a9bca",
     "url": "/static/js/runtime-main.30aea187.js"
-  },
-  {
-    "revision": "9b2376b27a7308a32440db0231d08b4a",
-    "url": "/static/media/Esm-Black.9b2376b2.otf"
-  },
-  {
-    "revision": "a9e437e45b711075c050820d21c9f300",
-    "url": "/static/media/Esm-Bold.a9e437e4.otf"
-  },
-  {
-    "revision": "adfcd7acde63668ed04573ad0041b343",
-    "url": "/static/media/Esm-Light.adfcd7ac.otf"
-  },
-  {
-    "revision": "4c5b84ac38d6abe40cb0dac5adb4430b",
-    "url": "/static/media/Esm-Medium.4c5b84ac.otf"
-  },
-  {
-    "revision": "73c8a0a7b5da93abef3feda9cc0eeff2",
-    "url": "/static/media/Esm-Regular.73c8a0a7.otf"
-  },
-  {
-    "revision": "06ee15552fb232c46a9e7a8e8bc35ba8",
-    "url": "/static/media/Esm-Thin.06ee1555.otf"
   },
   {
     "revision": "82451117a2d2d74fd0ccda3e784c3159",
