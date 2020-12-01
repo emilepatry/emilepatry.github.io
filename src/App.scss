@@ -7,23 +7,23 @@
   }
   &.light {
     transition: background 0.15s ease-out, color 0.15s ease-out;
-    background: #FCFCFC;
-    color: #42444A;
+    background: #FBFBFB;
+    color: #6D7788;
     a {
       text-decoration: none;
       position: relative;
       color: inherit;
       position:relative;
       display:inline-block;
-      transition: all 0.3s ease-out;
+      transition: all 0.2s ease-out;
       &:visited {
-        color: #42444A;
+        color: #6D7788;
       }
       &.highlight {
-        color: #3873F9;
+        color: #5E70CC;
       }
       &.nohighlight {
-        color: #3873F9;
+        color: #5E70CC;
       }
       &:after {
         content: "";
@@ -34,11 +34,11 @@
         left: 0;
         margin:0 auto;
         top:90%;
-        background-color: #3873F9;
+        background-color: #5E70CC;
         opacity: 0.5;
         height: 1px;
         width: 0%;
-        transition: width 0.3s ease;
+        transition: width 0.2s ease;
       }
       &.active {
         &:hover {
@@ -55,27 +55,27 @@
     }
   }
   &.dark {
-    background: #191D26;
-    color: #FBFDFF;
+    background: #202229;
+    color: #E9ECEE;
     transition: all 0.2s ease-out, color 0.2s ease-out;
     a {
       &.active {
         p {
-          color: #FBFDFF;
+          color: #E9ECEE;
           border-bottom: none;
         }
       }
       text-decoration: none;
       position: relative;
-      color: #FBFDFF;
+      color: #E9ECEE;
       &:visited {
-        color: #FBFDFF;
+        color: #E9ECEE;
       }
       &.highlight {
-        color: #3873F9;
+        color: #7A90E9;
       }
       &.nohighlight {
-        color: #3873F9;
+        color: #7A90E9;
       }
       &:after {
         content: "";
@@ -88,9 +88,9 @@
         margin:0 auto;
         height: 1px;
         width: 0%;
-        background-color: #3873F9;
+        background-color: #7A90E9;
         opacity: 0.5;
-        transition: width 0.3s ease;
+        transition: width 0.2s ease;
       }
       &:hover {
         &:after {
