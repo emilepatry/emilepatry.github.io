@@ -36,7 +36,14 @@ export default [
     "timeline": "July 2018 - Present",
     "location": "Waterloo, ON",
     "points": [
-      <span className="point" key={1}>	Over the Summer of 2020, <a className="highlight" href="https://arora-aditya.com" target="_blank" rel="noopener noreferrer">Aditya Arora</a> and I doubled down on Sage Co,
+      Image({
+        key: 1,
+        caption: ["",],
+        type: ImageType.FullWidth,
+        src: [sage_co],
+        image_alt: ['Sage Co Logo'],
+      }),
+      <span className="point" key={2}>	Over the Summer of 2020, <a className="highlight" href="https://arora-aditya.com" target="_blank" rel="noopener noreferrer">Aditya Arora</a> and I doubled down on Sage Co,
       the design agency we started in 2018. Our goal was to support SMBs throughout North America and Europe
       to transition their stores to digital platforms.</span>,
       <h2 key={2}>Getting Started</h2>,
@@ -45,13 +52,6 @@ export default [
       productive with my summer and learn as much as possible.</p>,
       <p className="point" key={4}>	Having completed a successful internship with the Allure Systems team as
       their sole product designer, I was inspired to practice my client relations and management skills.</p>,
-      Image({
-        key: 5,
-        caption: ["",],
-        type: ImageType.FullWidth,
-        src: [sage_co],
-        image_alt: ['Sage Co Website Mock'],
-      }),
     ]
   },
   {
