@@ -15,6 +15,8 @@ import persona3 from '../../assets/images/experience/persona3.png';
 import analytic from '../../assets/images/experience/analytic.png';
 import image_example from '../../assets/images/experience/image_example.png';
 import heather from '../../assets/images/experience/heather.png';
+import testimonial from '../../assets/images/experience/testimonial.png';
+import testimonials from '../../assets/images/experience/testimonials.gif';
 
 
 export default [
@@ -215,6 +217,30 @@ export default [
       <p className="point" key={50}>Heather Blenkiron gives advice about the Galapagos Islands on an (almost) daily
       basis. Almost 4000 contributions to date (mostly regarding travelling in the Galapagos) might be a good indicator
       of trustworthiness and dedication.</p>,
+      Image({
+        key: 51,
+        caption: ["Testimonials from TripAdvisor showcase the professionalism and uniqueness of CNH Tours.",],
+        type: ImageType.FullWidth,
+        src: [testimonial],
+        image_alt: ['Testimonials',],
+      }),
+      <p className="point" key={52}>Being humble in their marketing, CNH Tours doesn't put forward guest testimonials.</p>,
+      Image({
+        key: 51,
+        caption: ["Needless to say, their agents seem to plan good trips. The list goes on.",],
+        type: ImageType.FullWidth,
+        src: [testimonials],
+        image_alt: ['Testimonials',],
+      }),
+      <h2 key={53}>Hicks' Law, Miller's Law and the Zeigarnik Effect</h2>,
+      <p className="point" key={54}>The time it takes to make a decision increases with the number and complexity of
+      choices. This means minimizing and curating guests' options while maintaining their ability to explore.</p>,
+      <p className="point" key={55}>The average person can only keep 7 (plus or minus 2) items in their working memory.
+      When users approach CNH Tours, it's because they're already overwhelmed by the number of options presented to them
+      and require guidance.</p>,
+      <p className="point" key={56}>People remember uncompleted or interrupted tasks better than completed tasks. The
+      booking form is one of the points in the user journey with most friction. Designing to ease login and form filling
+      was one of my main points of focus.</p>,
     ]
   }
 ]
