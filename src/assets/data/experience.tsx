@@ -161,6 +161,14 @@ export default [
         src: [persona3],
         image_alt: ['Solo traveller',],
       }),
+      <h3 key={33}>User Journey & Impact Matrix</h3>,
+      Image({
+        key: 32,
+        caption: ["User Journey Map showcasing guest pain points expectations vs. post-research reality.",],
+        type: ImageType.FullWidth,
+        src: [cjm],
+        image_alt: ['CJM',],
+      }),
     ]
   }
 ]
