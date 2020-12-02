@@ -31,7 +31,7 @@ export default function Reading() {
               if(book.link){
                 return (
                   <p key={j} className="book">
-                    <img className={theme} src={caret} alt="caret" />
+                    <img className={theme} src={caret} alt="caret" opacity="0.5"/>
                     <a className="highlight" target="blank" rel="noopener noreferrer" href={book.link}>
                       {book.title.replace(/ /g, '\u00a0')}
                     </a> - {book.author.replace(/ /g, '\u00a0')}
