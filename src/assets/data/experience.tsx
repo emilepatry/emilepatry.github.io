@@ -163,7 +163,7 @@ export default [
       }),
       <h3 key={33}>User Journey & Impact Matrix</h3>,
       <p className="point" key={34}>Once I had developed an understanding of the users I were designing for, I built a
-      user journey map visualizing pain points and steps users currently have to take.</p,
+      user journey map visualizing pain points and steps users currently have to take.</p>,
       Image({
         key: 35,
         caption: ["User Journey Map showcasing guest pain points expectations vs. post-research reality.",],
@@ -171,6 +171,11 @@ export default [
         src: [cjm],
         image_alt: ['CJM',],
       }),
+      <h2 key={36}>Post-Research Key Findings</h2>,
+      <p className="point" key={37}>Travellers tend to plan months in advance. Even up to a year and a half.</p>,
+      <p className="point" key={38}>Travellers rely heavily on reviews from online forums and word-of-mouth
+      recommendations to determine the quality of services offered.</p>,
+      <p className="point" key={39}>Travellers like a human connection when working with travel agents.</p>,
     ]
   }
 ]
