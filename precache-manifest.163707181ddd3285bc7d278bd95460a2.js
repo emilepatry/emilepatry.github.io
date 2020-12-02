@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d1de579a38b43a8fcbc380cfde46ca4",
+    "revision": "936e4fd4c331931f7d758dbbbfbc6b34",
     "url": "/index.html"
   },
   {
-    "revision": "27dfe845e15b187401d5",
+    "revision": "d3c2567d141a95bf0f5e",
     "url": "/static/css/main.33b5db28.chunk.css"
   },
   {
-    "revision": "4cbff9b5a2d2920c6bc1",
-    "url": "/static/js/2.a4b12a2f.chunk.js"
+    "revision": "71ac8b8548075dcc6ec6",
+    "url": "/static/js/2.62201f32.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.a4b12a2f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.62201f32.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "27dfe845e15b187401d5",
-    "url": "/static/js/main.05b2b243.chunk.js"
+    "revision": "d3c2567d141a95bf0f5e",
+    "url": "/static/js/main.b31b9297.chunk.js"
   },
   {
     "revision": "b0023aec8f939e9a9bca",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "82451117a2d2d74fd0ccda3e784c3159",
     "url": "/static/media/alluresystems.82451117.png"
+  },
+  {
+    "revision": "45ce532b35a14ebe4b856f25d866b890",
+    "url": "/static/media/analytic.45ce532b.png"
   },
   {
     "revision": "e0d6a20f6a54f9649095f5b8ddf9f4eb",
@@ -40,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/day.f21b1b03.svg"
   },
   {
+    "revision": "a5dda73c1aebc3f501614ac5eeef5e00",
+    "url": "/static/media/heather.a5dda73c.png"
+  },
+  {
     "revision": "506351d112640a13e12caec228f41695",
     "url": "/static/media/hinterland_notion.506351d1.png"
+  },
+  {
+    "revision": "3fe5703bc2ccd12b282defbebb65ec26",
+    "url": "/static/media/image_example.3fe5703b.png"
   },
   {
     "revision": "dda404737998c21875ea56c86f9e3d31",
