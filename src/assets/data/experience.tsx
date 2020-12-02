@@ -19,6 +19,9 @@ import testimonial from '../../assets/images/experience/testimonial.png';
 import testimonials from '../../assets/images/experience/testimonials.gif';
 import os from '../../assets/images/experience/os.png';
 import lownav from '../../assets/images/experience/lownav.jpeg';
+import navsketch from '../../assets/images/experience/navsketch.jpeg';
+import navanimated from '../../assets/images/experience/navanimated.gif';
+
 
 
 export default [
@@ -275,6 +278,24 @@ export default [
         src: [lownav],
         image_alt: ['Navigation Sketches',],
       }),
+      Image({
+        key: 68,
+        caption: ["",],
+        type: ImageType.FullWidth,
+        src: [navsketch],
+        image_alt: ['Navigation Sketches',],
+      }),
+      <p className="point" key={69}>For Active Galapagos, this meant ordering the sub-navigation in order of importance.
+      To provide clarity, I divided the six options into two categories: Get Acquainted and Trip Details.</p>,
+      Image({
+        key: 70,
+        caption: ["Active Galapagos Navigation. Designed with Sketch, animated with After Effects.",],
+        type: ImageType.FullWidth,
+        src: [navanimated],
+        image_alt: ['Navigation Animated',],
+      }),
+      <p className="point" key={71}>Moreover, while designing the general navigation I kept in mind Miller's Law - 
+      the ability to keep around seven items in our working memory - to minimize the overflow of information on the user.</p>,
     ]
   }
 ]
