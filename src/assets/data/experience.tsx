@@ -17,6 +17,8 @@ import image_example from '../../assets/images/experience/image_example.png';
 import heather from '../../assets/images/experience/heather.png';
 import testimonial from '../../assets/images/experience/testimonial.png';
 import testimonials from '../../assets/images/experience/testimonials.gif';
+import os from '../../assets/images/experience/os.png';
+import lownav from '../../assets/images/experience/lownav.jpeg';
 
 
 export default [
@@ -241,6 +243,38 @@ export default [
       <p className="point" key={56}>People remember uncompleted or interrupted tasks better than completed tasks. The
       booking form is one of the points in the user journey with most friction. Designing to ease login and form filling
       was one of my main points of focus.</p>,
+      <h3 key={57}>Mobile Support</h3>,
+      <p className="point" key={58}>56% of visitors on the CNH Tours website approach it on a computer. The other 44%,
+      on a mobile device. Currently, the agency's website is hardly catered to support mobile users.</p>,
+      Image({
+        key: 59,
+        caption: ["",],
+        type: ImageType.FullWidth,
+        src: [os],
+        image_alt: ['OS',],
+      }),
+      <h1 key={60}>Design</h1>,
+      <p className="point" key={61}>I start each design on pen and paper. In the case of CNH Tours, I needed to
+      understand what guests look for in an agency. This meant reflecting on user research.</p>,
+      <p className="point" key={62}>The most important criteria guests looked for in a travel agency was trust. And
+      this was demonstrated to be catered to through testimonials, communicating with past guests, and easily
+      understanding the service offered. To cater to this, I created Guest Stories - a page showcasing short articles
+      written by guests about their experience using CNH Tours.</p>,
+      <p className="point" key={63}>To keep the case study concise, I focused my design on the most visited pages of
+      CNH Tours: the landing page, news page, booking form, and Guest Stories.</p>,
+      <h3 key={64}>Navigation</h3>,
+      <p className="point" key={65}>Designing the navigation of the CNH Tours website was, in my opinion, the most
+      crucial element of my study. It allowed me to practice the core principles of information architecture.</p>,
+      <p className="point" key={66}>I ordered each navigation option based on my previous research. This meant
+      putting forward calls to action such as contact and redesigning the layout of sub-navigation (most notably,
+      the Active Tours options).</p>,
+      Image({
+        key: 67,
+        caption: ["My thought process behind the navigation design.",],
+        type: ImageType.FullWidth,
+        src: [lownav],
+        image_alt: ['Navigation Sketches',],
+      }),
     ]
   }
 ]
