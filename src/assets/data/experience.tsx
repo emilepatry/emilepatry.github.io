@@ -108,6 +108,21 @@ export default [
       <p className="point" key={14}>To gain a deeper understanding of the vast scope of guests CNH Tours caters to, I
       divided my research into three sections: Influences & Trends, Quantitative Research, and Qualitative Research.</p>,
       <h2 key={15}>Influences, Inspiration, and Future Trends</h2>,
+      <p className="point" key={16}>Online research on popular travel forums demonstrated key trends in luxury travel.
+      These included the rise in popularity of long-term bookings (people approaching travel advisors like they would a
+      financial advisor), multi-generational travel (mother-daughter or father-son), and personalization (given high
+      competition, every detail matters).</p>,
+      <h2 key={17}>Quantitative Research</h2>,
+      <p className="point" key={18}>Using metrics from surveys and Google Analytics, I was able to gather a more
+      detailed understanding of the demographic interested in the services CNH Tours offers.</p>,
+      <p className="point" key={19}>76.5% of users frequenting the CNH Tours website ranged in age from 18–44; the majority (33.5%) being 25 to
+      34-year-old professionals.</p>,
+      <p className="point" key={20}>42% of users accessed the CNH Tours website through a mobile device and had a
+      bounce rate of 73%. Users accessing CNH Tours from a PC had a bounce rate of 44%.</p>,
+      <h2 key={21}>Qualitative Research</h2>,
+      <p className="point" key={20}>Done through interviews and surveys, the main goal of gathering qualitative
+      information was to build empathy with the guests. I wanted to understand what they look for in a travel agency,
+      and what pain points might come up in the current user journey.</p>,
       Image({
         key: 18,
         caption: ["The end result.",],
