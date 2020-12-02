@@ -12,6 +12,8 @@ import cjm from '../../assets/images/experience/cjm.png';
 import persona1 from '../../assets/images/experience/persona1.png';
 import persona2 from '../../assets/images/experience/persona2.png';
 import persona3 from '../../assets/images/experience/persona3.png';
+import analytic from '../../assets/images/experience/analytic.png';
+import image_example from '../../assets/images/experience/image_example.png';
 
 
 export default [
@@ -188,6 +190,15 @@ export default [
         caption: ["Source: CNH Tours Google Analytics",],
         type: ImageType.FullWidth,
         src: [analytic],
+        image_alt: ['Google Analytics',],
+      }),
+      <p className="point" key={45}>Creating a captivating landing page by limiting text and using intuitive and
+      visually stimulating content would get the guest immediately interested in the agency.</p>,
+      Image({
+        key: 46,
+        caption: ["Examples of inspiring travel images (thanks Unsplash).",],
+        type: ImageType.FullWidth,
+        src: [image_example],
         image_alt: ['Google Analytics',],
       }),
     ]
