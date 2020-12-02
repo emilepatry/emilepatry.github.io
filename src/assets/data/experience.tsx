@@ -9,6 +9,10 @@ import one from '../../assets/images/experience/1.png';
 import two from '../../assets/images/experience/2.png';
 import three from '../../assets/images/experience/3.png';
 import cjm from '.../../assets/images/experience/cjm.png';
+import persona1 from '.../../assets/images/experience/persona1.png';
+import persona2 from '.../../assets/images/experience/persona2.png';
+import persona3 from '.../../assets/images/experience/persona3.png';
+
 
 export default [
   {
@@ -135,12 +139,27 @@ export default [
       <p className="point" key={27}>"I loved the pictures my son took. His Instagram feed was beautiful!"</p>,
       <p className="point" key={28}>"I didn't like the time it took the agent to achieve what we could have done in a
       fraction in the time. We also had to go in-person to a specific location in town to book."</p>,
+      <h3 key={29}>Personas</h3>,
       Image({
-        key: 18,
-        caption: ["The end result.",],
-        type: ImageType.FullWidth,
-        src: [allure],
-        image_alt: ['Allure Solution Mock',],
+        key: 30,
+        caption: ["A grandparent wishing to go to her dream destination with her family.",],
+        type: ImageType.ThreeInOne,
+        src: [persona1],
+        image_alt: ['A grandparent wishing to go to her dream destinatino,],
+      }),
+      Image({
+        key: 31,
+        caption: ["A honeymoon couple looking for exotic places to visit.",],
+        type: ImageType.ThreeInOne,
+        src: [persona2],
+        image_alt: ['A grandparent wishing to go to her dream destinatino,],
+      }),
+      Image({
+        key: 32,
+        caption: ["A solo traveller looking for a cruise that will cater to all his needs.",],
+        type: ImageType.ThreeInOne,
+        src: [persona3],
+        image_alt: ['A grandparent wishing to go to her dream destinatino,],
       }),
     ]
   }
