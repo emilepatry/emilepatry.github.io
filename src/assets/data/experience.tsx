@@ -21,6 +21,7 @@ import os from '../../assets/images/experience/os.png';
 import lownav from '../../assets/images/experience/lownav.jpeg';
 import navsketch from '../../assets/images/experience/navsketch.jpeg';
 import navanimated from '../../assets/images/experience/navanimated.gif';
+import navmobile from '../../assets/images/experience/navmobile.gif';
 
 
 
@@ -296,6 +297,19 @@ export default [
       }),
       <p className="point" key={71}>Moreover, while designing the general navigation I kept in mind Miller's Law - 
       the ability to keep around seven items in our working memory - to minimize the overflow of information on the user.</p>,
+      <h3 key={72}>Navigation: Mobile</h3>,
+      <p className="point" key={72}>On mobile, I opted to use a bottom locked bar to support core navigation to minimize
+      finger travel.</p>,
+      <p className="point" key={73}>In the animation below, Sign In is located on the top navigation. This was later
+      switched with the contact option following user testing. Items located on the top navigation were perceived by
+      users as the main call to action.</p>,
+      Image({
+        key: 70,
+        caption: ["AMobile navigation redesign.",],
+        type: ImageType.FullWidth,
+        src: [navmobile],
+        image_alt: ['Navigation Animated - Mobile',],
+      }),
     ]
   }
 ]
