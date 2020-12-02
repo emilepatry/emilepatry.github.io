@@ -46,7 +46,7 @@ export default [
       <span className="point" key={2}>	Over the Summer of 2020, <a className="highlight" href="https://arora-aditya.com" target="_blank" rel="noopener noreferrer">Aditya Arora</a> and I doubled down on Sage Co,
       the design agency we started in 2018. Our goal was to support SMBs throughout North America and Europe
       to transition their stores to digital platforms.</span>,
-      <h2 key={2}>Getting Started</h2>,
+      <h1 key={2}>Getting Started</h1>,
       <p className="point" key={3}>At the beginning of the COVID-19 pandemic, I had the misfortune to lose my
       projected summer internship, like many other students. Despite this, I pushed myself to do something
       productive with my summer and learn as much as possible.</p>,
