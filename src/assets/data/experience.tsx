@@ -9,9 +9,9 @@ import one from '../../assets/images/experience/1.png';
 import two from '../../assets/images/experience/2.png';
 import three from '../../assets/images/experience/3.png';
 import cjm from '.../../assets/images/experience/cjm.png';
-import persona1 from '.../../assets/images/experience/persona1.png';
-import persona2 from '.../../assets/images/experience/persona2.png';
-import persona3 from '.../../assets/images/experience/persona3.png';
+import persona1 from '../../assets/images/experience/persona1.png';
+import persona2 from '../../assets/images/experience/persona2.png';
+import persona3 from '../../assets/images/experience/persona3.png';
 
 
 export default [
