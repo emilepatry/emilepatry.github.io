@@ -14,6 +14,7 @@ import persona2 from '../../assets/images/experience/persona2.png';
 import persona3 from '../../assets/images/experience/persona3.png';
 import analytic from '../../assets/images/experience/analytic.png';
 import image_example from '../../assets/images/experience/image_example.png';
+import heather from '../../assets/images/experience/heather.png';
 
 
 export default [
@@ -178,7 +179,7 @@ export default [
       <p className="point" key={38}>Travellers rely heavily on reviews from online forums and word-of-mouth
       recommendations to determine the quality of services offered.</p>,
       <p className="point" key={39}>Travellers like a human connection when working with travel agents.</p>,
-      <h1 key={40}>Design Principles Used</h2>,
+      <h1 key={40}>Design Principles Used</h1>,
       <p className="point" key={41}>Taking into account current feedback and research, I took a step back from the
       design process and into the mind of the traveller. The next step was to understand the key pain points on
       the website and develop a solution.</p>,
@@ -201,6 +202,19 @@ export default [
         src: [image_example],
         image_alt: ['Google Analytics',],
       }),
+      <h2 key={47}>Trust, Honesty and Charm</h2>,
+      <p className="point" key={48}>Potential travellers want to see transparency in a travel agency. They want to
+      know who they're working with, and how qualified the travel agent is to help them.</p>,
+      Image({
+        key: 49,
+        caption: ["",],
+        type: ImageType.FullWidth,
+        src: [heather],
+        image_alt: ['Heather at Tripadvisor',],
+      }),
+      <p className="point" key={50}>Heather Blenkiron gives advice about the Galapagos Islands on an (almost) daily
+      basis. Almost 4000 contributions to date (mostly regarding travelling in the Galapagos) might be a good indicator
+      of trustworthiness and dedication.</p>,
     ]
   }
 ]
