@@ -176,6 +176,20 @@ export default [
       <p className="point" key={38}>Travellers rely heavily on reviews from online forums and word-of-mouth
       recommendations to determine the quality of services offered.</p>,
       <p className="point" key={39}>Travellers like a human connection when working with travel agents.</p>,
+      <h1 key={40}>Design Principles Used</h2>,
+      <p className="point" key={41}>Taking into account current feedback and research, I took a step back from the
+      design process and into the mind of the traveller. The next step was to understand the key pain points on
+      the website and develop a solution.</p>,
+      <h2 key={42}>Photo and Video Heavy</h2>,
+      <p className="point" key={43}>Users have a very limited attention span. In fact, this ranges from 0 to 10 seconds
+      for over 60% of visiting guests on CNH Tours.</p>,
+      Image({
+        key: 44,
+        caption: ["Source: CNH Tours Google Analytics",],
+        type: ImageType.FullWidth,
+        src: [analytic],
+        image_alt: ['Google Analytics',],
+      }),
     ]
   }
 ]
