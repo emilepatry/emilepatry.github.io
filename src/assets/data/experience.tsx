@@ -115,14 +115,26 @@ export default [
       <h2 key={17}>Quantitative Research</h2>,
       <p className="point" key={18}>Using metrics from surveys and Google Analytics, I was able to gather a more
       detailed understanding of the demographic interested in the services CNH Tours offers.</p>,
-      <p className="point" key={19}>76.5% of users frequenting the CNH Tours website ranged in age from 18–44; the majority (33.5%) being 25 to
+      <p className="point" key={19}>76.5% of users frequenting the CNH Tours website ranged in age from 18–44; the
+      majority (33.5%) being 25 to
       34-year-old professionals.</p>,
       <p className="point" key={20}>42% of users accessed the CNH Tours website through a mobile device and had a
       bounce rate of 73%. Users accessing CNH Tours from a PC had a bounce rate of 44%.</p>,
       <h2 key={21}>Qualitative Research</h2>,
-      <p className="point" key={20}>Done through interviews and surveys, the main goal of gathering qualitative
+      <p className="point" key={22}>Done through interviews and surveys, the main goal of gathering qualitative
       information was to build empathy with the guests. I wanted to understand what they look for in a travel agency,
       and what pain points might come up in the current user journey.</p>,
+      <h3 key={23}>Key Quotes</h3>,
+      <p className="point" key={24}>"I usually spend over 20 hours researching and plan several months ahead because
+      I'm excited. It also helps me get better deals and make sure everything is planned the way it should be!"</p>,
+      <p className="point" key={25}>"I realy heavily on referrals and recommendations from friends when choosing a
+      travel agency."</p>,
+      <p className="point" key={26}>"Last time I used a travel agency it was great to learn from them and their
+      customers' experiences. The agent was personable and kind, and I like the human touch… Oh, I also loved that
+      they had been on that cruise!"</p>,
+      <p className="point" key={27}>"I loved the pictures my son took. His Instagram feed was beautiful!"</p>,
+      <p className="point" key={28}>"I didn't like the time it took the agent to achieve what we could have done in a
+      fraction in the time. We also had to go in-person to a specific location in town to book."</p>,
       Image({
         key: 18,
         caption: ["The end result.",],
