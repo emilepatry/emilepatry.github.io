@@ -76,15 +76,12 @@ export default [
     "timeline": "March - December 2019",
     "location": "Paris, FR",
     "points": [
-      <span className="point" key={1}>In 2019 I had the opportunity to work in a fashion-tech startup as the only
-      Product Designer. Here are a couple of things that I learned on the way, and a glimpse of what I got to work on.</span>,
-      <p className="point" key={1}>Allure Systems uses machine learning to automate the traditional photo shoot.
+      <span className="point" key={1}>Allure Systems uses machine learning to automate the traditional photo shoot.
       Their solution offers e-commerce stylists a wide range of tools to choose from, easing their workflow,
-      maximizing productivity, and facilitating the fashion industry's inclusivity.</p>,
-      <p className="point" key={3}>In March 2019, I had the opportunity to join Allure Systems as their first
+      maximizing productivity, and facilitating the fashion industry's inclusivity.</span>,
+      <p className="point" key={2}>In March 2019, I had the opportunity to join Allure Systems as their first
       product designer. I had to familiarize myself with their service through extensive interviews
       with all of the company's stakeholders and early users and collect data from their progress.</p>,
-      <p className="point" key={2}>
       Image({
         key: 16,
         caption: ["The end result.",],
