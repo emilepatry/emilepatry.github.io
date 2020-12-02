@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="home">
       <img src={me} alt="me"/>
-      <p className="hi-there">Hi there, I'm Emile &#128516;</p>
+      <h1 className="hi-there">Hi there, I'm Emile &#128075;</h1>
       <div className="about-me">
         {about_me.map((text, i) => {
           return <div key={i}>{text}</div>

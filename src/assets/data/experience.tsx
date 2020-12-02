@@ -26,7 +26,7 @@ export default [
         src: [hinterland_notion],
         image_alt: ['Hinterland Notion'],
       }),
-      <p className="point" key={2}>Currently building an MVP, conducting user research, and receiving mentorship from <a className="highlight" href="https://velocityincubator.com" target="_blank" rel="noopener noreferrer">Velocity</a> at the University of Waterloo.</p>,
+      <p className="point" key={2}>Currently building an MVP, conducting user research, and formulating business plan.</p>,
     ]
   },
   {
