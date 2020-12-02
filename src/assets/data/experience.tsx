@@ -145,21 +145,21 @@ export default [
         caption: ["A grandparent wishing to go to her dream destination with her family.",],
         type: ImageType.ThreeInOne,
         src: [persona1],
-        image_alt: ['A grandparent wishing to go to her dream destinatino,],
+        image_alt: ['Grandparent',],
       }),
       Image({
         key: 31,
         caption: ["A honeymoon couple looking for exotic places to visit.",],
         type: ImageType.ThreeInOne,
         src: [persona2],
-        image_alt: ['A grandparent wishing to go to her dream destinatino,],
+        image_alt: ['Honeymoon couple',],
       }),
       Image({
         key: 32,
         caption: ["A solo traveller looking for a cruise that will cater to all his needs.",],
         type: ImageType.ThreeInOne,
         src: [persona3],
-        image_alt: ['A grandparent wishing to go to her dream destinatino,],
+        image_alt: ['Solo traveller',],
       }),
     ]
   }
