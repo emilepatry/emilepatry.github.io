@@ -162,8 +162,10 @@ export default [
         image_alt: ['Solo traveller',],
       }),
       <h3 key={33}>User Journey & Impact Matrix</h3>,
+      <p className="point" key={34}>Once I had developed an understanding of the users I were designing for, I built a
+      user journey map visualizing pain points and steps users currently have to take.</p,
       Image({
-        key: 32,
+        key: 35,
         caption: ["User Journey Map showcasing guest pain points expectations vs. post-research reality.",],
         type: ImageType.FullWidth,
         src: [cjm],
