@@ -1,0 +1,311 @@
+/* FONT WORK */
+@font-face {
+  font-family: 'Tiempos Text Regular';
+  font-weight: 400;
+  font-stle: normal;
+  src: url('WOFF2/tiempos-text-regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tiempos Text Regular Italic';
+  font-weight: 400;
+  font-style: italic;
+  src: url('WOFF2/tiempos-text-regular-italic.woff2') format('woff2');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Tiempos Text Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('WOFF2/tiempos-text-medium.woff2') format('woff2');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Tiempos Text Medium Italic';
+  font-weight: 500;
+  font-style: italic;
+  src: url('WOFF2/tiempos-text-medium-italic.woff2') format('woff2');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Tiempos Text Semibold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('WOFF2/tiempos-text-semibold.woff2') format('woff2');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Tiempos Text Semibold Italic';
+  font-weight: 600;
+  font-style: italic;
+  src: url('WOFF2/tiempos-text-semibold-italic.woff2') format('woff2');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Tiempos Text Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: url('WOFF2/tiempos-text-bold.woff2') format('woff2');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Tiempos Text Bold Italic';
+  font-weight: 700;
+  font-style: italic;
+  src: url('WOFF2/tiempos-text-bold-italic.woff2') format('woff2');
+  font-display: swap;
+
+}
+
+/* High-level work */
+
+body {
+  padding-top: 3em;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  background-color: #FDFFFC;
+  font-family: 'Tiempos Text Regular', Georgia, Times, serif;
+  font-size: 1.2em;
+  line-height: 1.45;
+  color: #3B5336;
+}
+
+h1 {
+  font-family: 'Tiempos Text Regular Italic', serif;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1em;
+  color: #5F7D55;
+  margin: none;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding-top: 1em;
+  color: #5F7D55;
+}
+
+h3 {
+  font-family: "Tiempos Text Regular Italic", serif;
+  font-weight: 300;
+  color: #5F7D55;
+}
+
+a {
+  color: #5F7D55;
+  transition: 0.1s;
+}
+
+a:hover {
+  color: #9CB591;
+  text-decoration: none;
+}
+
+.content {
+  margin: auto;
+  margin-bottom: 2em;
+  max-width: 608px;
+}
+
+.centre {
+  text-align: center;
+  color: #253825;
+}
+
+.footer {
+  margin-top: 2em;
+}
+
+.emphasized {
+  font-family: 'Tiempos Text Regular Italic', serif;
+
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+  margin-top: 1em;
+  border-radius: 4px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #D6E1D1;
+}
+
+.caption {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.7em;
+  letter-spacing: 0.01em;
+  ;
+}
+
+.callout {
+  padding: 1.6em 2.4em;
+  background-color: #F2F6F1;
+  border-radius: 4px;
+}
+
+.pill {
+  background-color: #F2F6F1;
+  border: none;
+  color: #5F7D55;
+  padding: 4px 12px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.small-caps {
+  -moz-font-feature-settings: "c2sc", "smcp";
+  -ms-font-feature-settings: "c2sc", "smcp";
+  -webkit-font-feature-settings: "c2sc", "smcp";
+  font-feature-settings: "c2sc", "smcp";
+  letter-spacing: 0.05em;
+}
+
+.small-caps a {
+  text-decoration: none;
+}
+
+.oldstyle-figures {
+  -moz-font-feature-settings: "onum";
+  -ms-font-feature-settings: "onum";
+  -webkit-font-feature-settings: "onum";
+  font-feature-settings: "onum";
+}
+
+.headline {
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  /* Add gutter between tiles */
+  flex-wrap: wrap;
+  /* Allow tiles to wrap to the next row on small screens */
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.tile {
+  flex: 1;
+  background-color: #F2F6F1;
+  color: #3B5336;
+  border: 1px solid #D6E1D1;
+  text-align: centre;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  width: 33.33%;
+  /* Distribute equally on large screens */
+  padding: 0.8em 1.6em 1.2em 1.6em;
+  /* Add padding to the top and bottom */
+  border-radius: 4px;
+}
+
+.tile:last-child {
+  margin-right: 0;
+  /* Remove margin from the last tile */
+}
+
+.tile:hover {
+  background-color: #D6E1D1;
+  color: #5F7D55;
+  box-shadow: 0 0px 1px hsla(136, 17%, 12%, 0);
+}
+
+.tile2 {
+  flex: 1;
+  text-align: left;
+  width: 33.33%;
+}
+
+.tile2:last-child {
+  margin-right: 0;
+  /* Remove margin from the last tile */
+}
+
+.tile:hover {
+  background-color: #D6E1D1;
+  color: #5F7D55;
+  box-shadow: 0 0px 1px hsla(136, 17%, 12%, 0);
+}
+
+
+@media (max-width: 608px) {
+  .content {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .tile {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .tile {
+    width: calc(100% - 40px);
+    /* Make tiles take up 100% width on small screens and include left and right padding */
+    margin-right: 0;
+    /* Remove margin on small screens */
+    padding: 20px 20px;
+    /* Add padding to the top and bottom */
+    text-align: left;
+  }
+
+  .tile2 {
+    width: calc(100% - 40px);
+    /* Make tiles take up 100% width on small screens and include left and right padding */
+    margin-right: 0;
+    /* Remove margin on small screens */
+    /* Add padding to the top and bottom */
+    text-align: left;
+  }
+
+  .centre {
+    text-align: left;
+  }
+}
+
+::selection {
+  background: #1A251D;
+  color: #D6E1D1;
+}
